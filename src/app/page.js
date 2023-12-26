@@ -7,12 +7,12 @@ function HelloWorld(props) {
 
 export default function Home() {
     HelloWorld(1);
-  return (
-      <>
+    return (
+        <>
           {/*<p>Hello World!2</p>
             <p>Hello World!3</p>*/}
           <HelloWorld name="world1"/>
           <HelloWorld name="world2"/>
-      </>
-  );
+        </>
+    );
 }
